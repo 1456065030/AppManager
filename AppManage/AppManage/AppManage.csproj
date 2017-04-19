@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E3EE3FE-D907-4927-923B-4CF8735180C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppManage</RootNamespace>
+    <AssemblyName>AppManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>伟.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationsDao.cs" />
+    <Compile Include="Applications.cs" />
+    <Compile Include="AppType.cs" />
+    <Compile Include="AppTypeDao.cs" />
+    <Compile Include="DeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteForm.Designer.cs">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditApplicationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditApplicationsForm.Designer.cs">
+      <DependentUpon>EditApplicationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GengDuoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GengDuoForm.Designer.cs">
+      <DependentUpon>GengDuoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForm.Designer.cs">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertMultiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertMultiForm.Designer.cs">
+      <DependentUpon>InsertMultiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoneyForm.Designer.cs">
+      <DependentUpon>MoneyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyApp.cs" />
+    <Compile Include="BeanUtil.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyAppDao.cs" />
+    <Compile Include="Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open.designer.cs">
+      <DependentUpon>Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other.cs" />
+    <Compile Include="OtherDao.cs" />
+    <Compile Include="PassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassForm.Designer.cs">
+      <DependentUpon>PassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PwdClass.cs" />
+    <Compile Include="RegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegForm.Designer.cs">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetPwdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPwdForm.Designer.cs">
+      <DependentUpon>SetPwdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePwdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePwdForm.Designer.cs">
+      <DependentUpon>UpdatePwdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTypeForm.Designer.cs">
+      <DependentUpon>UpdateTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlDao.cs" />
+    <EmbeddedResource Include="DeleteForm.resx">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditApplicationsForm.resx">
+      <DependentUpon>EditApplicationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GengDuoForm.resx">
+      <DependentUpon>GengDuoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForm.resx">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertMultiForm.resx">
+      <DependentUpon>InsertMultiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyForm.resx">
+      <DependentUpon>MoneyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open.resx">
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassForm.resx">
+      <DependentUpon>PassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegForm.resx">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPwdForm.resx">
+      <DependentUpon>SetPwdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePwdForm.resx">
+      <DependentUpon>UpdatePwdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTypeForm.resx">
+      <DependentUpon>UpdateTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="伟.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

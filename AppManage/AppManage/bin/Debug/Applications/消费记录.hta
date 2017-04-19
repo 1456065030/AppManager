@@ -1,0 +1,177 @@
+<TITLE>消费记录程序</TITLE> 
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/> 
+<HTA:APPLICATION 
+SINGLEINSTANCE="yes"
+SCROLL="no" 
+CAPTION="yes" 
+SYSMENU="yes"/> 
+<script language="vbscript"> 
+totalMoney=0
+index=-1
+flag=0
+set fso=createobject("scripting.filesystemobject") 
+Sub Window_onLoad 
+if not (fso.fileexists("consume.ini")) then
+fso.createtextfile("consume.ini").close 
+end if 
+window.resizeTo 638,495
+window.moveTo (window.screen.availWidth-638)/2,(window.screen.availHeight-495)/2
+addRow 0,"hoho","2016-08-01","星期一" 
+document.all.namedItem("mytable").rows(1).style.display="none"
+addRow 0,"hoho","2016-08-01","星期一"
+document.all.namedItem("mytable").rows(2).style.display="none"
+readFile("consume.ini") 
+End Sub 
+Function readFile(filename) 
+set file=fso.opentextfile(filename,1,1) 
+do while file.atendofline<>true
+str=split(file.readline,"#") 
+addRow str(1),str(2),str(3),str(4)
+loop 
+End Function 
+Function addRow(cnum,ctype,cdate,cday) 
+index=index+1
+set objTable=document.all.namedItem("mytable")
+set newrow = objTable.insertRow()
+newrow.className="row_add"
+newrow.onmouseover=getRef("change_bgcolor") 
+newrow.onmouseout=getRef("back_bgcolor") 
+newrow.onclick=getRef("chooseOBJ") 
+var="#"&cnum&"#"&ctype&"#"&cdate&"#"&cday 
+str=split(var,"#") 
+str(0)="<input type=checkbox id='delcheck'&index>" 
+for i=0 to 4 
+set newcell=newrow.insertCell()
+newcell.innerhtml=str(i) 
+next 
+totalMoney=totalMoney+clng(cnum)
+consume.innerHTML="消费总额："&totalMoney&"元" 
+End Function 
+Function change_bgcolor() 
+me.className="new_row_add" 
+End Function 
+Function back_bgcolor() 
+me.className="row_add" 
+End Function 
+Function chooseOBJ() 
+if me.cells(0).children(0).checked=true then 
+me.cells(0).children(0).checked=false 
+else 
+me.cells(0).children(0).checked=true 
+end if 
+End Function 
+Function delRow() 
+for i=0 to index 
+if delcheck(i).checked=true then 
+set tag=delcheck(i).parentelement.parentelement
+tag.style.display="none"
+totalMoney=totalMoney-clng(tag.cells(1).innertext) 
+consume.innerHTML="消费总额："&totalMoney&"元" 
+tag.cells(1).innertext="0"
+end if 
+next 
+flag=1
+End Function 
+Function check(value) 
+if not (isnumeric(value)) then 
+msgbox "请在消费金额栏中输入数字!",64,"特别提示" 
+elseif value<1 then 
+msgbox "你的钱难道越花越多?",64,"特别提示" 
+else 
+flag=1 
+addRow money.value,cstype.options(cstype.selectedIndex).innerText,date,weekdayname(weekday(date)) 
+csmonth.selectedIndex = month(date()) 
+selectChange(monthname(month(date())))
+end if 
+money.select()
+End Function 
+Function selectChange(choose)
+totalMoney=0 
+for i=0 to index 
+set tag=delcheck(i).parentelement.parentelement 
+mName=monthname(month(tag.cells(3).innertext)) 
+if trim(choose)="一年" and tag.cells(1).innertext<>"0" then 
+tag.style.display="" 
+totalMoney=totalMoney+clng(tag.cells(1).innertext) 
+elseif mName<>trim(choose) or tag.cells(1).innertext="0" then 
+tag.style.display="none" 
+else 
+tag.style.display="" 
+totalMoney=totalMoney+clng(tag.cells(1).innertext) 
+end if 
+next 
+consume.innerHTML="消费总额："&totalMoney&"元" 
+End Function 
+Function selectAll()
+if mybutton.value="全部选择" then 
+for i=0 to index 
+delcheck(i).checked=true 
+next 
+mybutton.value="全不选择" 
+else 
+for i=0 to index 
+delcheck(i).checked=false 
+next 
+mybutton.value="全部选择" 
+end if 
+End Function 
+Sub Window_onunLoad() 
+if flag=1 then
+msg=msgbox("提示：你的设置已经更改，是否保存?",vbyesno+vbExclamation,"保存提醒") 
+if msg=6 then
+selectChange("一年") 
+for i=0 to index 
+set tag=delcheck(i).parentelement.parentelement 
+if tag.cells(1).innertext<>"0" then 
+txt=txt&"#"&tag.cells(1).innertext&"#"&tag.cells(2).innertext&"#" 
+txt=txt&tag.cells(3).innertext&"#"&tag.cells(4).innertext & vbcrlf 
+end if 
+next 
+set file=fso.opentextfile("consume.ini",2,1) 
+file.write(txt).close 
+end if 
+end if 
+End Sub 
+</script> 
+<style> 
+#all{border:1px solid #000069;width:600px;text-align:center;padding:2px;} 
+#header{width:598px;text-align:center;font-family: "隶书";font-size: 24px; 
+font-weight: bold;background: #EEE;margin:1px;} 
+#header1{text-align:center;font-size: 16px;width:595px;padding:2px 2px;} 
+#month{float:left;width:20px;margin-left:90px;} 
+#consume{float:left;width:200px;color:red} 
+#main{width:600px;height:300px;background: #EEE;border:1px solid #000069;overflow:auto;} 
+#contain{width:600px;height:30px;border:1px solid #000069;} 
+.line{border:1px solid #000060; height: 1;width:602px;} 
+.line2{border:1px solid white; height: 1;width:600px;} 
+.c_button{text-align:center;float:left;width:100px;border:1px solid #ccc; 
+background-color:#F3F3F3;font-size:12px;color:#333333; 
+padding:5px 2px;margin:2px;line-height:20px;} 
+.c_other{text-align:center;float:left;width:136px; 
+border:1px solid #ccc;background-color:#F3F3F3;font-size:12px;color:#333333; 
+padding:5px 2px;margin:2px;line-height:20px;height:23px; } 
+.button {padding:1px;text-align:center;border:0;background-color:#eee;height:23px;cursor:pointer} 
+.th{text-align=center;background-color:#006699;font-size:14px; 
+font-family: "隶书";color:#F2F3F7;padding:2px;line-height:22px;} 
+.row_add{text-align:center;background-color:#ccd2de;height:4px;font-size:12px;line-height:15px; 
+padding:2px;} 
+.new_row_add{text-align:center;color:red;background-color:#ccd2ad;height:4px; font-size:12px; 
+line-height:15px;padding:2px;cursor:hand;} 
+</style> 
+<hr class="line"> 
+<div ID="all"> 
+<div id="header">2016年消费一览表</div> 
+<div id="header1"> 
+<div id="month"><select id="csmonth" onchange=selectChange(csmonth.options(csmonth.selectedIndex).innerText)><option>一年</option><option>一月</option><option>二月</option><option>三月</option><option>四月</option><option>五月</option><option>六月</option><option>七月</option><option>八月</option><option>九月</option><option>十月</option><option>十一月</option><option>十二月</option></select></div> 
+<div id="consume">消费总额：</div></div> 
+<div id="main"> 
+<table border=0 width=100% ID="mytable"> 
+<tr class="th"><th>选定</th><th>消费金额</th><th>消费类型</th><th>消费日期</th><th>消费星期</th> 
+</table></div> 
+<hr class="line2" color=white> 
+<div id="contain"> 
+<div class="c_button"><input type=submit value="全部选择" class="button" ID="mybutton" onclick=selectAll></div> 
+<div class="c_other">消费金额：<input type=text name="money" size=5 onmouseover='money.select()'></div> 
+<div class="c_other">消费类型：<select ID="cstype"><option>饮食</option><option>娱乐</option><option>其它</option></select></div> 
+<div class="c_button"><input type=submit value="添加记录" class="button" onclick=check(money.value)></div><div class="c_button"><input type=submit value="删除记录" class="button" onclick=delRow()></div> 
+</div></div>

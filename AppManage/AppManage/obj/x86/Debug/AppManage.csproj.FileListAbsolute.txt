@@ -1,0 +1,102 @@
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.DeleteForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.Form1.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.InsertForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.InsertMultiForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.PassForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.UpdatePwdForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateTypeForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\AppManage\AppManage\bin\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManage\AppManage\bin\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.EditApplicationsForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.RegForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.MoneyForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.exe
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.pdb
+F:\Eminent\AppManage\AppManage\bin\Debug\AppManage.exe
+F:\Eminent\AppManage\AppManage\bin\Debug\AppManage.pdb
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.DeleteForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.EditApplicationsForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.Form1.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.InsertForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.InsertMultiForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.MoneyForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.PassForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.Properties.Resources.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.RegForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.UpdatePwdForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateTypeForm.resources
+F:\Eminent\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.Open.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.SetPwdForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\bin\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\bin\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.DeleteForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.EditApplicationsForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.Form1.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.InsertForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.InsertMultiForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.MoneyForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.Open.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.PassForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.RegForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.SetPwdForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.UpdatePwdForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateTypeForm.resources
+C:\Users\Administrator\Desktop\AppManager双版本\Rouse版\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\bin\Debug\AppManage.exe
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\bin\Debug\AppManage.pdb
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.DeleteForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.EditApplicationsForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Form1.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.InsertForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.InsertMultiForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.MoneyForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Open.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.PassForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.RegForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.SetPwdForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdatePwdForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateTypeForm.resources
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.GengDuoForm.resources
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\AppManage\AppManage\obj\x86\Debug\AppManage.GengDuoForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.ResolveComReference.cache
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.exe
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.pdb
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\bin\Debug\AppManage.exe
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\bin\Debug\AppManage.pdb
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.DeleteForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.EditApplicationsForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Form1.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.GengDuoForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.InsertForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.InsertMultiForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.MoneyForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Open.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.PassForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.Properties.Resources.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.RegForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.SetPwdForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdatePwdForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.UpdateTypeForm.resources
+F:\Eminent\C Sharp\AppManager\AppManage\AppManage\obj\x86\Debug\AppManage.csproj.GenerateResource.Cache
